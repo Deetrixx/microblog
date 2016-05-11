@@ -4,7 +4,7 @@
 <form action="" method="post" name="login">
     {{form.hidden_tag() }}
     <p>
-        Please enter your OpenId
+        Please enter your OpenId:
         <br> {{ form.openid(size=80) }}
         <br> {% for error in form.openid.errors %}
         <span style="color:red;">[{{ error }}]</span> {% endfor %}
