@@ -1,7 +1,7 @@
 <!-----extend from base layout------>
 {% extends "base.html" %} {% block content %}
 <h1>Sign In</h1>
-<form action="" metod="post" name="login">
+<form action="" method="post" name="login">
     {{form.hidden_tag() }}
     <p>
         Please enter your OpenId:
@@ -15,4 +15,4 @@
         <input type="submit" value="Sign In">
     </p>
 </form>
-{% endblock %}}
+{% endblock %}
